@@ -6,7 +6,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 import telebot
 from telebot import types
 
-TOKEN = "ТВОЙ_ТОКЕН_ОТ_BOTFATHER"
+TOKEN = "8957204394:AAFasf98ogRUBD4zYnyszlaCor_-3FkXwlw"
 WEB_APP_URL = "https://abdulborimusaev0122-hub.github.io/tictactoe/"
 
 bot = telebot.TeleBot(TOKEN)
