@@ -7,11 +7,12 @@ import telebot
 from telebot import types
 import psycopg2
 
-TюTOKEN = os.environ.get("8957204394:AAFasf98ogRUBD4zYnyszlaCor_-3FkXwlw")
+TOKEN = "8957204394:AAFasf98ogRUBD4zYnyszlaCor_-3FkXwlw"
 DATABASE_URL = os.environ.get("DATABASE_URL")
 WEB_APP_URL = "https://abdulborimusaev0122-hub.github.io/tictactoe/"
 
 bot = telebot.TeleBot(TOKEN)
+
 
 def get_db_connection():
     return psycopg2.connect(DATABASE_URL, sslmode='require')
