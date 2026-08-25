@@ -10,7 +10,7 @@ from aiohttp import web
 logging.basicConfig(level=logging.INFO)
 
 # Токен бота берется из переменных окружения Render
-TOKEN = os.getenv("8957204394:AAFasf98ogRUBD4zYnyszlaCor_-3FkXwlw")
+TOKEN = os.getenv("BOT_TOKEN", "8957204394:AAFBWR8sH95eQZzvxiVc6ehxNKv4mVb_kE8")
 # Ссылка на Mini App
 WEBAPP_URL = "https://musaevabdulbori.github.io/tictactoe/"
 
