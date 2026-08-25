@@ -134,7 +134,7 @@ def start_cmd(message):
     get_or_create_user(user_id, username)
     
     markup = types.InlineKeyboardMarkup()
-    btn_app = types.InlineKeyboardButton("🎮 Играть в Крестики-Нолики ❌⭕", web_app=types.WebAppInfo(url=WEB_APP_URL))
+    btn_app = types.InlineKeyboardButton("🎮 Играть в Крестики-Нолики", web_app=types.WebAppInfo(url="https://abdulborimusaev0122-hub.github.io/tictactoe/"))
     markup.add(btn_app)
     
     text = (
