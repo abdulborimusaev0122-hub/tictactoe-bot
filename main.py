@@ -35,8 +35,11 @@ def get_main_keyboard():
 async def cmd_start(message: types.Message):
     await message.answer(
         "👋 Добро пожаловать в Крестики-Нолики!\n\n"
+        "🎒 **Школьный ивент уже в игре!**\n"
+        "Побеждай в матчах, копи ✏️ Карандаши и забирай эксклюзивные ивентовые скины!\n\n"
         "Нажми на кнопку ниже, чтобы начать игру:",
-        reply_markup=get_main_keyboard()
+        reply_markup=get_main_keyboard(),
+        parse_mode="Markdown"
     )
 
 # Простой HTTP-сервер для поддержки активности сервиса на Render
